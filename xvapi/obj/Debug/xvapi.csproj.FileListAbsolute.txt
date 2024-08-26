@@ -1,0 +1,6 @@
+C:\Users\cob\source\repos\xvapi\xvapi\bin\Debug\xvapi.dll
+C:\Users\cob\source\repos\xvapi\xvapi\bin\Debug\xvapi.pdb
+C:\Users\cob\source\repos\xvapi\xvapi\obj\Debug\xvapi.csproj.AssemblyReference.cache
+C:\Users\cob\source\repos\xvapi\xvapi\obj\Debug\xvapi.csproj.CoreCompileInputs.cache
+C:\Users\cob\source\repos\xvapi\xvapi\obj\Debug\xvapi.dll
+C:\Users\cob\source\repos\xvapi\xvapi\obj\Debug\xvapi.pdb
