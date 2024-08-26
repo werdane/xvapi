@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -25,7 +25,7 @@ namespace xvapi
 
         public static status Inject(string path)
         {
-            
+
             setup.load();
             if (!System.IO.File.Exists(path))
             {
@@ -74,6 +74,26 @@ namespace xvapi
 
         }
 
+        public static void KillClient()
+        {
+            string processName = "RobloxPlayerBeta";
 
+            try
+            {
+                Process[] processes = Process.GetProcessesByName(processName);
+
+                foreach (Process process in processes)
+                {
+                    process.CloseMainWindow();
+                    process.WaitForExit();
+                }
+
+                Console.WriteLine($"Closed {processes.Length} instances of {processName}.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
     }
 }
