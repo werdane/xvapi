@@ -5,7 +5,7 @@
   <img src="https://github.com/user-attachments/assets/e727b931-1477-49bb-bb9b-4f6afd95449a">
 </p>
 <p align="center">
-  <strong>Created by AK</strong>
+  <strong>Created by AK aka werdane</strong>
 </p>
 
 <p align="center">
